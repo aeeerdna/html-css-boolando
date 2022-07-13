@@ -6,15 +6,11 @@
 }
 
 body {
-    font-family: sans-serif
+    font-family: sans-serif;
 }
 
-/* .container {
-    max-width: 1200px;
-    margin: 0 auto;
-} */
-
 /* end Generale */
+
 
 /* Flex */
 .flex {
@@ -31,7 +27,8 @@ body {
 
 /* end Flex */
 
-/* Impostazione pagina */
+
+/* Intestazione e barre navigazione Boolando */
 header {
     background-color: orange;
     color: white;
@@ -55,15 +52,72 @@ ul a {
     padding: 0px 5px;
 }
 
-/* end Impostazione pagina */
-
-/* Intestazione e barre navigazione Boolando */
-
 /* end Intestazione e barre navigazione Boolando */
 
+
 /* Corpo centrale */
+main {
+    background-color: rgb(17, 193, 44);
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.wrap {
+    flex-wrap: wrap;
+}
+
+.nuovo-prezzo {
+    color: red;
+}
+
+.vecchio-prezzo {
+    text-decoration: line-through;
+}
+
+.modelli {
+    width: 100%;
+}
+
+
+section {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    row-gap: 20px;
+}
+
+.prodotti {
+    margin: 0px 10px;
+    width: calc(100% / 3 - 20px);
+    flex-shrink: 0;
+    position: relative;
+}
+
+.cuore {
+    color: #000;
+    position: absolute;
+    top: 0px;
+    right: 5px;
+    font-size: 20px;
+    cursor: default;
+}
+
+.prodotti:hover .cuore {
+    color: red;
+}
+
+.column {
+    flex-direction: column;
+}
+
+.descrizione-prodotti {
+    font-size: 0.7rem;
+}
 
 /* end Corpo centrale */
+
 
 /* Informazioni utili */
 
