@@ -94,7 +94,7 @@ main>.flex {
 }
 
 .prodotti {
-    width: calc(100% /3 - 100px);
+    width: calc(100% /3);
     flex-shrink: 0;
     padding: 0 10px;
 }
@@ -123,6 +123,7 @@ main>.flex {
 
 .info-prodotti .sconto {
     background-color: red;
+    padding: 5px;
 }
 
 .info-prodotti .sostenibilità {
@@ -168,7 +169,6 @@ main>.flex {
 /* Informazioni utili */
 footer {
     background-color: #000;
-    height: 150vh;
 }
 
 /* end Informazioni utili */
