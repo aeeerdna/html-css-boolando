@@ -37,6 +37,10 @@ img {
     flex-wrap: wrap;
 }
 
+.row {
+    flex-direction: row;
+}
+
 /* end Flex */
 
 
@@ -169,6 +173,34 @@ main>.flex {
 /* Informazioni utili */
 footer {
     background-color: #000;
+    color: white;
+    padding-top: 20px;
+}
+
+#azienda {
+    font-size: 1.2rem;
+    padding-bottom: 10px;
+    padding-left: 10px;
+}
+
+.info-azienda {
+    padding-left: 10px;
+}
+
+.info-legali {
+    text-decoration: none;
+    color: white;
+    font-size: 0.8rem;
+    padding-right: 10px;
+}
+
+.social {
+    padding-right: 10px;
+}
+
+.social a {
+    color: white;
+    padding-right: 10px;
 }
 
 /* end Informazioni utili */
